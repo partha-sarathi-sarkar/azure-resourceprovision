@@ -6,7 +6,18 @@ This article requires that you are running the Azure CLI version 2.0.76 or later
 
 ## Limitations
 
-Add Limitations if any in future.
+Add Limitations if any.
+
+## CODE of Conduct
+
+## PR Template
+[PR Template](Templates/PRTEMPLATE.md)
+
+## Issue Template
+[Issue Template](Templates/ISSUETEMPLATE.md.md)
+
+## TODO List 
+[Todo list](Templates/TODOS.md)
 
 ## Document References
 
