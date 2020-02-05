@@ -1,6 +1,6 @@
 |title    |description  |services |author |
 |---------|-------------|---------|-------|
-|Create resource group using azure cli     | Learn how to create Virtual Network |   Infrastrucure Provision      | Partha Sarathi Sarkar      |
+|Login to azure by az cli   | Learn how to Login to az cli |   Login      | Partha Sarathi Sarkar      |
 
 # Azure Login
 

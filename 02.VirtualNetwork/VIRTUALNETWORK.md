@@ -1,6 +1,6 @@
 |title    |description  |services |author |
 |---------|-------------|---------|-------|
-|Create resource group using azure cli     | Learn how to create Virtual Network |   Infrastrucure Provision      | Partha Sarathi Sarkar      |
+|Create virtual network using azure cli     | Learn how to create Virtual Network |   Infrastrucure Provision      | Partha Sarathi Sarkar      |
 
 # Virtual Network
 
@@ -24,20 +24,7 @@ These instructions will allow you to run the PowerShell script. This script can 
 
 ## Example
 
-* **.\resoucegroupcreate.ps1 -Location eastus -Name newRG -SubscriptionName my-subscription-name**
-* **.\resoucegroupcreate.ps1 -Location eastus -Name newRG**
-
-### Output
-
-```json
-{
-  "id": "/subscriptions/<guid>/resourceGroups/myResourceGroup",
-  "location": "eastus",
-  "managedBy": null,
-  "name": "myResourceGroup",
-  "properties": {
-    "provisioningState": "Succeeded"
-  },
-  "tags": null
-}
-```
+* **.\virtualnetwork.ps1 -RgName myresourcegroup  -VnetName virtualnetworkname**
+Here VnetAddressPrefix is optional parameter.
+* **.\virtualnetwork.ps1 -RgName myresourcegroup  -VnetName virtualnetworkname -VnetAddressPrefix 10.0.0.0/16 -SubnetName subnetname -SubnetAddressPrefix 10.1.0.0/24**
+Here Virtual network along with subnet will be created with the given name address prefix

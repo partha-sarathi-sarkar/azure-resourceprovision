@@ -18,7 +18,7 @@ Param (
 )
 
 if ($VnetAddressPrefix) {
-    az network vnet create -g $RgName -n $VnetName  --address-prefix VnetAddressPrefix
+    az network vnet create -g $RgName -n $VnetName  --address-prefix $VnetAddressPrefix
 }else {
     az network vnet create -g $RgName -n $VnetName 
 }
