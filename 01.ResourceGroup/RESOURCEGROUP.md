@@ -24,8 +24,8 @@ These instructions will allow you to run the PowerShell script. This script can 
 
 ## Example
 
-* **.\resoucegroupcreate.ps1 -Location eastus -Name newRG -SubscriptionName my-subscription-name**
-* **.\resoucegroupcreate.ps1 -Location eastus -Name newRG**
+* ``.\resoucegroupcreate.ps1 -Location eastus -Name newRG -SubscriptionName my-subscription-name``
+* ``.\resoucegroupcreate.ps1 -Location eastus -Name newRG``
 
 ## Output
 

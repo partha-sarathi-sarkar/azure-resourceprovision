@@ -24,7 +24,10 @@ These instructions will allow you to run the PowerShell script. This script can 
 
 ## Example
 
-* **.\virtualnetwork.ps1 -RgName myresourcegroup  -VnetName virtualnetworkname**
+* ``.\virtualnetwork.ps1 -RgName myresourcegroup  -VnetName virtualnetworkname``
+
 Here VnetAddressPrefix is optional parameter.
-* **.\virtualnetwork.ps1 -RgName myresourcegroup  -VnetName virtualnetworkname -VnetAddressPrefix 10.0.0.0/16 -SubnetName subnetname -SubnetAddressPrefix 10.1.0.0/24**
+
+* ``.\virtualnetwork.ps1 -RgName myresourcegroup  -VnetName virtualnetworkname -VnetAddressPrefix 10.0.0.0/16 -SubnetName subnetname -SubnetAddressPrefix 10.1.0.0/24``
+
 Here Virtual network along with subnet will be created with the given name address prefix
