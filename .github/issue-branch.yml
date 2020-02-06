@@ -1,0 +1,5 @@
+branches:
+  - label: enhancement
+    prefix: feature/${issue.user.login}/
+  - label: bug
+    prefix: bugfix/
