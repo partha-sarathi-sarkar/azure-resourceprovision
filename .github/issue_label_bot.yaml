@@ -1,0 +1,7 @@
+label-alias:
+  bug: 'bug'
+  feature_request: 'feature'
+  question: 'question'
+  duplicate: 'duplicate'
+  documentation: "documentation"
+  enhancement: "enhancement"
